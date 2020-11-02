@@ -1,6 +1,6 @@
 # Imperative Approach
 
-## Build the container suing Docker
+## Build the container using Docker
 
 ```
 docker build -t kub-first-app .
