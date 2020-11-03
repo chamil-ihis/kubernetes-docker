@@ -191,6 +191,30 @@ kubectl delete deployment first-app
 ```
 
 
+# Declarative for deployment
 
+```
+kubectl apply -f=deployment.yaml
+```
 
+# Declarative for service
+
+```
+kubectl apply -f service.yaml
+```
+
+```
+kubectl get services
+```
+
+## Expose the app being deployed to the cluster
+```
+minikube service backend
+```
+
+## Clean up resources for declarative
+
+```
+kubectl delete -f=deployment.yaml,service.yaml
+```
 
