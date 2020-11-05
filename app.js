@@ -4,8 +4,8 @@ const app = express();
 
 app.get('/', (req, res) => {
   res.send(`
-    <h1>!Hello from this NodeJS app!</h1>
-    <p>Try sending a request to /error and see what happens</p>
+    <h1>Hello this is NUS ISS DevOps </h1>
+    <p>Welcome to this course ! version 3</p>
   `);
 });
 
